@@ -4,42 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <!--Linked to CSS + JS files-->
     <link rel="stylesheet" href="css/normalize.css" />
-    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js"></script>
   </head>
   <body>
-    <div class="calculator-container">
-      <div>1234567</div>
-      <div class="calc-buttons">
-        <div class="row-1">
-          <button class="clear-button button function-button">AC</button>
-          <button class="sign-change-button button function-button">+/-</button>
-          <button class="percentage-button button function-button">%</button>
-          <button class="divide-button button operation-button">/</button>
-        </div>
-        <div class="row-2">
-          <button class="seven-button button number-button">7</button>
-          <button class="eight-button button number-button">8</button>
-          <button class="nine-button button number-button">9</button>
-          <button class="multiply-button button operation-button">*</button>
-        </div>
-        <div class="row-3">
-          <button class="four-button button number-button">4</button>
-          <button class="five-button button number-button">5</button>
-          <button class="six-button button number-button">6</button>
-          <button class="subtract-button button operation-button">-</button>
-        </div>
-        <div class="row-4">
-          <button class="one-button button number-button">1</button>
-          <button class="two-button button number-button">2</button>
-          <button class="three-button button number-button">3</button>
-          <button class="add-button button operation-button">+</button>
-        </div>
-        <div class="row-5">
-          <button class="zero-button button">0</button>
-          <button class="decimal-button button function-button">.</button>
-          <button class="equal-button button operation-button">=</button>
+    <div class="calc-container">
+      <div class="calc">
+        <div class="calc-display">1234567890</div>
+        <div class="calc-buttons">
+          <button class="ac-button button">AC</button>
+          <button class="sign-button button">+/-</button>
+          <button class="percentage-button button">%</button>
+          <button class="divide-button button">/</button>
+          <button class="seven-button button">7</button>
+          <button class="eight-button button">8</button>
+          <button class="nine-button button">9</button>
+          <button class="multiply-button button">*</button>
+          <button class="four-button button">4</button>
+          <button class="five-button button">5</button>
+          <button class="six-button button">6</button>
+          <button class="subtract-button button">-</button>
+          <button class="one-button button">1</button>
+          <button class="two-button button">2</button>
+          <button class="three-button button">3</button>
+          <button class="add-button button">+</button>
+          <!--Zero button spans two columns-->
+          <button class="zero-button">0</button>
+          <button class="decimal-button button">.</button>
+          <button class="equal-button button">=</button>
         </div>
       </div>
     </div>
